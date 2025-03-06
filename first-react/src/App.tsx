@@ -11,7 +11,7 @@ function App() {
         <Alert onClose={() => setAlertVisibility(false)}>Warning!</Alert>
       )}
       <Button color="danger" onClick={() => setAlertVisibility(true)}>
-        My Button
+        Display Alert
       </Button>
     </div>
   );
